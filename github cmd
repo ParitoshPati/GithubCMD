@@ -1,0 +1,58 @@
+ create a project dir
+ 
+ cd into that dir
+ 
+ echo "# Your Repo" >> README.md  -- to create a read me file 
+ 
+ git init -- to initialize that dir to github go to step 9
+ 
+ git clone -- for cloning a git repo in your local machine
+ 
+ git status -- to see modified files list
+ 
+ git add .  -- to track all the changes in the project after that use git status
+ 
+ git commit -- to commit to git repository the modified changes
+ 
+ git commit -m "created readme" -m "description on"
+ 
+ git push -- to push the commit to the githhub repo
+ 
+ git push -u origin master
+ 
+ if you started your project from scratch without cloning a repo than you have to create one empty repo on github and do step 23 after that step 19
+ 
+ git remote add origin git@github.com:paritoshpati/youremptyrepo.git (change to your repo address)
+ 
+ git branch -- to check in which brach you are in
+ 
+ git checkout -b feature -- to create a new branch called feature
+ 
+ git checkout master -- to change the branch to master
+ 
+ git diff -- what changes are being made
+ 
+ git diff features -- what changes are made between branch features and master
+ 
+ git pull -- to pull merger request in your local master branch system
+ 
+ git branch -d features -- to delete features branch
+ 
+ git merge master -- to merge on local machine but this is not recommended due to merge conflict so always merge on website or gui
+ 
+ git reset HEAD~1 -- undo the last commit
+ 
+ git log -- to see different commits of log
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
