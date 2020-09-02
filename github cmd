@@ -20,7 +20,7 @@
  
  git push -u origin master
  
- if you started your project from scratch without cloning a repo than you have to create one empty repo on github and do step 23 after that step 19
+ if you started your project from scratch without cloning a repo than you have to create one empty repo on github and do step 25 after that step 21
  
  git remote add origin git@github.com:paritoshpati/youremptyrepo.git (change to your repo address)
  
